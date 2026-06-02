@@ -28,17 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Codigo = new System.Windows.Forms.TextBox();
+            this.TxtCodigo = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.Sair = new System.Windows.Forms.Button();
+            this.BtnSair = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // Codigo
+            // TxtCodigo
             // 
-            this.Codigo.Location = new System.Drawing.Point(15, 25);
-            this.Codigo.Name = "Codigo";
-            this.Codigo.Size = new System.Drawing.Size(127, 20);
-            this.Codigo.TabIndex = 0;
+            this.TxtCodigo.Location = new System.Drawing.Point(15, 25);
+            this.TxtCodigo.Name = "TxtCodigo";
+            this.TxtCodigo.Size = new System.Drawing.Size(127, 20);
+            this.TxtCodigo.TabIndex = 0;
             // 
             // label1
             // 
@@ -49,23 +49,23 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Código";
             // 
-            // Sair
+            // BtnSair
             // 
-            this.Sair.Location = new System.Drawing.Point(722, 416);
-            this.Sair.Name = "Sair";
-            this.Sair.Size = new System.Drawing.Size(66, 22);
-            this.Sair.TabIndex = 2;
-            this.Sair.Text = "Sair";
-            this.Sair.UseVisualStyleBackColor = true;
+            this.BtnSair.Location = new System.Drawing.Point(722, 416);
+            this.BtnSair.Name = "BtnSair";
+            this.BtnSair.Size = new System.Drawing.Size(66, 22);
+            this.BtnSair.TabIndex = 2;
+            this.BtnSair.Text = "Sair";
+            this.BtnSair.UseVisualStyleBackColor = true;
             // 
             // Base
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.Sair);
+            this.Controls.Add(this.BtnSair);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.Codigo);
+            this.Controls.Add(this.TxtCodigo);
             this.Name = "Base";
             this.Text = "Base";
             this.ResumeLayout(false);
@@ -74,8 +74,8 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button Sair;
+        private System.Windows.Forms.Button BtnSair;
         protected System.Windows.Forms.Label label1;
-        protected System.Windows.Forms.TextBox Codigo;
+        protected System.Windows.Forms.TextBox TxtCodigo;
     }
 }

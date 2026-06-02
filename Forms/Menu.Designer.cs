@@ -30,11 +30,11 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.cadastrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.CadastrosPaises = new System.Windows.Forms.ToolStripMenuItem();
-            this.CadastrosEstados = new System.Windows.Forms.ToolStripMenuItem();
-            this.CadastrosCidades = new System.Windows.Forms.ToolStripMenuItem();
+            this.BtnCadastrosPaises = new System.Windows.Forms.ToolStripMenuItem();
+            this.BtnCadastrosEstados = new System.Windows.Forms.ToolStripMenuItem();
+            this.BtnCadastrosCidades = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.CadastrosSair = new System.Windows.Forms.ToolStripMenuItem();
+            this.BtnCadastrosSair = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,43 +51,43 @@
             // cadastrosToolStripMenuItem
             // 
             this.cadastrosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.CadastrosPaises,
-            this.CadastrosEstados,
-            this.CadastrosCidades,
+            this.BtnCadastrosPaises,
+            this.BtnCadastrosEstados,
+            this.BtnCadastrosCidades,
             this.toolStripSeparator1,
-            this.CadastrosSair});
+            this.BtnCadastrosSair});
             this.cadastrosToolStripMenuItem.Name = "cadastrosToolStripMenuItem";
             this.cadastrosToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
             this.cadastrosToolStripMenuItem.Text = "Cadastros";
             // 
-            // CadastrosPaises
+            // BtnCadastrosPaises
             // 
-            this.CadastrosPaises.Name = "CadastrosPaises";
-            this.CadastrosPaises.Size = new System.Drawing.Size(180, 22);
-            this.CadastrosPaises.Text = "Países";
+            this.BtnCadastrosPaises.Name = "BtnCadastrosPaises";
+            this.BtnCadastrosPaises.Size = new System.Drawing.Size(180, 22);
+            this.BtnCadastrosPaises.Text = "Países";
             // 
-            // CadastrosEstados
+            // BtnCadastrosEstados
             // 
-            this.CadastrosEstados.Name = "CadastrosEstados";
-            this.CadastrosEstados.Size = new System.Drawing.Size(180, 22);
-            this.CadastrosEstados.Text = "Estados";
+            this.BtnCadastrosEstados.Name = "BtnCadastrosEstados";
+            this.BtnCadastrosEstados.Size = new System.Drawing.Size(180, 22);
+            this.BtnCadastrosEstados.Text = "Estados";
             // 
-            // CadastrosCidades
+            // BtnCadastrosCidades
             // 
-            this.CadastrosCidades.Name = "CadastrosCidades";
-            this.CadastrosCidades.Size = new System.Drawing.Size(180, 22);
-            this.CadastrosCidades.Text = "Cidades";
+            this.BtnCadastrosCidades.Name = "BtnCadastrosCidades";
+            this.BtnCadastrosCidades.Size = new System.Drawing.Size(180, 22);
+            this.BtnCadastrosCidades.Text = "Cidades";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
             this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
             // 
-            // CadastrosSair
+            // BtnCadastrosSair
             // 
-            this.CadastrosSair.Name = "CadastrosSair";
-            this.CadastrosSair.Size = new System.Drawing.Size(180, 22);
-            this.CadastrosSair.Text = "Sair";
+            this.BtnCadastrosSair.Name = "BtnCadastrosSair";
+            this.BtnCadastrosSair.Size = new System.Drawing.Size(180, 22);
+            this.BtnCadastrosSair.Text = "Sair";
             // 
             // Menu
             // 
@@ -109,11 +109,11 @@
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem cadastrosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem CadastrosPaises;
-        private System.Windows.Forms.ToolStripMenuItem CadastrosEstados;
-        private System.Windows.Forms.ToolStripMenuItem CadastrosCidades;
+        private System.Windows.Forms.ToolStripMenuItem BtnCadastrosPaises;
+        private System.Windows.Forms.ToolStripMenuItem BtnCadastrosEstados;
+        private System.Windows.Forms.ToolStripMenuItem BtnCadastrosCidades;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.ToolStripMenuItem CadastrosSair;
+        private System.Windows.Forms.ToolStripMenuItem BtnCadastrosSair;
     }
 }
 
