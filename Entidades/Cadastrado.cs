@@ -10,7 +10,22 @@ namespace Test.Entidades
     {
         public int codigo { protected set; get; } = 0;
         public int codigoUsuario { protected set; get; } = 0;
-        public DateTime? dataCadastro { protected set; get; } = null;
-        public DateTime? dataUltimaAlteracao { protected set; get; } = null;
+        public DateTime dataCadastro { protected set; get; } = DateTime.Now;
+        public DateTime dataUltimaAlteracao { protected set; get; } = DateTime.Now;
+
+        public Cadastrado() { }
+
+        public Cadastrado(
+            int codigo,
+            int codigoUsuario,
+            DateTime dataCadastro,
+            DateTime dataUltimaAlteracao
+        )
+        {
+            this.codigo = codigo;
+            this.codigoUsuario = codigoUsuario;
+            this.dataCadastro = dataCadastro;
+            this.dataUltimaAlteracao = dataUltimaAlteracao;
+        }
     }
 }
