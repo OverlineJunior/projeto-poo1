@@ -58,6 +58,24 @@
     <Compile Include="Forms\Consultas\Consulta.Designer.cs">
       <DependentUpon>Consulta.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Consultas\ConsultaCidades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Consultas\ConsultaCidades.Designer.cs">
+      <DependentUpon>ConsultaCidades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Consultas\ConsultaEstados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Consultas\ConsultaEstados.Designer.cs">
+      <DependentUpon>ConsultaEstados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Consultas\ConsultaPaises.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Consultas\ConsultaPaises.Designer.cs">
+      <DependentUpon>ConsultaPaises.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +89,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Consultas\Consulta.resx">
       <DependentUpon>Consulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Consultas\ConsultaCidades.resx">
+      <DependentUpon>ConsultaCidades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Consultas\ConsultaEstados.resx">
+      <DependentUpon>ConsultaEstados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Consultas\ConsultaPaises.resx">
+      <DependentUpon>ConsultaPaises.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
