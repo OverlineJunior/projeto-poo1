@@ -52,6 +52,7 @@
             this.BtnExcluir.TabIndex = 4;
             this.BtnExcluir.Text = "Excluir";
             this.BtnExcluir.UseVisualStyleBackColor = true;
+            this.BtnExcluir.Click += new System.EventHandler(this.BtnExcluir_Click);
             // 
             // BtnAlterar
             // 
@@ -61,6 +62,7 @@
             this.BtnAlterar.TabIndex = 5;
             this.BtnAlterar.Text = "Alterar";
             this.BtnAlterar.UseVisualStyleBackColor = true;
+            this.BtnAlterar.Click += new System.EventHandler(this.BtnAlterar_Click);
             // 
             // BtnIncluir
             // 
@@ -70,6 +72,7 @@
             this.BtnIncluir.TabIndex = 6;
             this.BtnIncluir.Text = "Incluir";
             this.BtnIncluir.UseVisualStyleBackColor = true;
+            this.BtnIncluir.Click += new System.EventHandler(this.BtnIncluir_Click);
             // 
             // BtnPesquisar
             // 
@@ -79,6 +82,7 @@
             this.BtnPesquisar.TabIndex = 7;
             this.BtnPesquisar.Text = "Pesquisar";
             this.BtnPesquisar.UseVisualStyleBackColor = true;
+            this.BtnPesquisar.Click += new System.EventHandler(this.BtnPesquisar_Click);
             // 
             // Consulta
             // 
