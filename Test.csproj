@@ -62,6 +62,24 @@
     <Compile Include="Forms\Cadastros\Cadastro.Designer.cs">
       <DependentUpon>Cadastro.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Cadastros\CadastroCidade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cadastros\CadastroCidade.Designer.cs">
+      <DependentUpon>CadastroCidade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cadastros\CadastroEstado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cadastros\CadastroEstado.Designer.cs">
+      <DependentUpon>CadastroEstado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cadastros\CadastroPais.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cadastros\CadastroPais.Designer.cs">
+      <DependentUpon>CadastroPais.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Consultas\Consulta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +118,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Cadastros\Cadastro.resx">
       <DependentUpon>Cadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cadastros\CadastroEstado.resx">
+      <DependentUpon>CadastroEstado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cadastros\CadastroPais.resx">
+      <DependentUpon>CadastroPais.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Consultas\Consulta.resx">
       <DependentUpon>Consulta.cs</DependentUpon>

@@ -1,6 +1,6 @@
 ﻿namespace Test.Forms.Cadastros
 {
-    partial class Cadastro
+    partial class CadastroEstado
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -28,36 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnSalvar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnSalvar
-            // 
-            this.btnSalvar.Location = new System.Drawing.Point(650, 416);
-            this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(66, 22);
-            this.btnSalvar.TabIndex = 3;
-            this.btnSalvar.Text = "Salvar";
-            this.btnSalvar.UseVisualStyleBackColor = true;
-            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
-            // 
-            // Cadastro
+            // CadastroEstado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnSalvar);
-            this.Name = "Cadastro";
-            this.Text = "Cadastro de Cidade";
-            this.Controls.SetChildIndex(this.txtCodigo, 0);
-            this.Controls.SetChildIndex(this.label1, 0);
-            this.Controls.SetChildIndex(this.btnSalvar, 0);
+            this.Name = "CadastroEstado";
+            this.Text = "Cadastro de Estado";
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        protected System.Windows.Forms.Button btnSalvar;
     }
 }
