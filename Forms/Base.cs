@@ -16,5 +16,10 @@ namespace Test
         {
             InitializeComponent();
         }
+
+        private void BtnSair_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
