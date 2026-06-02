@@ -37,7 +37,7 @@
             // 
             this.Codigo.Location = new System.Drawing.Point(15, 25);
             this.Codigo.Name = "Codigo";
-            this.Codigo.Size = new System.Drawing.Size(83, 20);
+            this.Codigo.Size = new System.Drawing.Size(127, 20);
             this.Codigo.TabIndex = 0;
             // 
             // label1
@@ -74,9 +74,8 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox Codigo;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button Sair;
+        protected System.Windows.Forms.Label label1;
+        protected System.Windows.Forms.TextBox Codigo;
     }
 }
