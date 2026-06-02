@@ -56,6 +56,12 @@
     <Compile Include="Forms\Base.Designer.cs">
       <DependentUpon>Base.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Cadastros\Cadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cadastros\Cadastro.Designer.cs">
+      <DependentUpon>Cadastro.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Consultas\Consulta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +97,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\Base.resx">
       <DependentUpon>Base.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cadastros\Cadastro.resx">
+      <DependentUpon>Cadastro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Consultas\Consulta.resx">
       <DependentUpon>Consulta.cs</DependentUpon>
