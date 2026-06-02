@@ -19,17 +19,17 @@ namespace Test
             InitializeComponent();
         }
 
-        private void btnCadastrosPaises_Click(object sender, EventArgs e)
+        private void btnConsultasPaises_Click(object sender, EventArgs e)
         {
             interfaces.ExibirConsultaPaises();
         }
 
-        private void btnCadastrosEstados_Click(object sender, EventArgs e)
+        private void btnConsultasEstados_Click(object sender, EventArgs e)
         {
             interfaces.ExibirConsultaEstados();
         }
 
-        private void btnCadastrosCidades_Click(object sender, EventArgs e)
+        private void btnConsultasCidades_Click(object sender, EventArgs e)
         {
             interfaces.ExibirConsultaCidades();
         }

@@ -30,9 +30,9 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.cadastrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.btnCadastrosPaises = new System.Windows.Forms.ToolStripMenuItem();
-            this.btnCadastrosEstados = new System.Windows.Forms.ToolStripMenuItem();
-            this.btnCadastrosCidades = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnConsultasPaises = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnConsultasEstados = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnConsultasCidades = new System.Windows.Forms.ToolStripMenuItem();
             this.btnSair = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -50,33 +50,33 @@
             // cadastrosToolStripMenuItem
             // 
             this.cadastrosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.btnCadastrosPaises,
-            this.btnCadastrosEstados,
-            this.btnCadastrosCidades});
+            this.btnConsultasPaises,
+            this.btnConsultasEstados,
+            this.btnConsultasCidades});
             this.cadastrosToolStripMenuItem.Name = "cadastrosToolStripMenuItem";
             this.cadastrosToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
-            this.cadastrosToolStripMenuItem.Text = "Cadastros";
+            this.cadastrosToolStripMenuItem.Text = "Consultas";
             // 
-            // btnCadastrosPaises
+            // btnConsultasPaises
             // 
-            this.btnCadastrosPaises.Name = "btnCadastrosPaises";
-            this.btnCadastrosPaises.Size = new System.Drawing.Size(180, 22);
-            this.btnCadastrosPaises.Text = "Países";
-            this.btnCadastrosPaises.Click += new System.EventHandler(this.btnCadastrosPaises_Click);
+            this.btnConsultasPaises.Name = "btnConsultasPaises";
+            this.btnConsultasPaises.Size = new System.Drawing.Size(180, 22);
+            this.btnConsultasPaises.Text = "Países";
+            this.btnConsultasPaises.Click += new System.EventHandler(this.btnConsultasPaises_Click);
             // 
-            // btnCadastrosEstados
+            // btnConsultasEstados
             // 
-            this.btnCadastrosEstados.Name = "btnCadastrosEstados";
-            this.btnCadastrosEstados.Size = new System.Drawing.Size(180, 22);
-            this.btnCadastrosEstados.Text = "Estados";
-            this.btnCadastrosEstados.Click += new System.EventHandler(this.btnCadastrosEstados_Click);
+            this.btnConsultasEstados.Name = "btnConsultasEstados";
+            this.btnConsultasEstados.Size = new System.Drawing.Size(180, 22);
+            this.btnConsultasEstados.Text = "Estados";
+            this.btnConsultasEstados.Click += new System.EventHandler(this.btnConsultasEstados_Click);
             // 
-            // btnCadastrosCidades
+            // btnConsultasCidades
             // 
-            this.btnCadastrosCidades.Name = "btnCadastrosCidades";
-            this.btnCadastrosCidades.Size = new System.Drawing.Size(180, 22);
-            this.btnCadastrosCidades.Text = "Cidades";
-            this.btnCadastrosCidades.Click += new System.EventHandler(this.btnCadastrosCidades_Click);
+            this.btnConsultasCidades.Name = "btnConsultasCidades";
+            this.btnConsultasCidades.Size = new System.Drawing.Size(180, 22);
+            this.btnConsultasCidades.Text = "Cidades";
+            this.btnConsultasCidades.Click += new System.EventHandler(this.btnConsultasCidades_Click);
             // 
             // btnSair
             // 
@@ -109,9 +109,9 @@
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem cadastrosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem btnCadastrosPaises;
-        private System.Windows.Forms.ToolStripMenuItem btnCadastrosEstados;
-        private System.Windows.Forms.ToolStripMenuItem btnCadastrosCidades;
+        private System.Windows.Forms.ToolStripMenuItem btnConsultasPaises;
+        private System.Windows.Forms.ToolStripMenuItem btnConsultasEstados;
+        private System.Windows.Forms.ToolStripMenuItem btnConsultasCidades;
         protected System.Windows.Forms.Button btnSair;
     }
 }
