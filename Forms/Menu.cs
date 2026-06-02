@@ -12,9 +12,26 @@ namespace Test
 {
     public partial class Menu : Form
     {
+        private Interfaces interfaces = new Interfaces();
+
         public Menu()
         {
             InitializeComponent();
+        }
+
+        private void BtnCadastrosPaises_Click(object sender, EventArgs e)
+        {
+            interfaces.ExibirConsultaPaises();
+        }
+
+        private void BtnCadastrosEstados_Click(object sender, EventArgs e)
+        {
+            interfaces.ExibirConsultaEstados();
+        }
+
+        private void BtnCadastrosCidades_Click(object sender, EventArgs e)
+        {
+            interfaces.ExibirConsultaCidades();
         }
     }
 }

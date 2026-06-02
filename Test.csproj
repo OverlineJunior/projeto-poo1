@@ -76,6 +76,7 @@
     <Compile Include="Forms\Consultas\ConsultaPaises.Designer.cs">
       <DependentUpon>ConsultaPaises.cs</DependentUpon>
     </Compile>
+    <Compile Include="Interfaces.cs" />
     <Compile Include="Forms\Menu.cs">
       <SubType>Form</SubType>
     </Compile>

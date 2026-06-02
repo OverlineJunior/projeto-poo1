@@ -65,18 +65,21 @@
             this.BtnCadastrosPaises.Name = "BtnCadastrosPaises";
             this.BtnCadastrosPaises.Size = new System.Drawing.Size(180, 22);
             this.BtnCadastrosPaises.Text = "Países";
+            this.BtnCadastrosPaises.Click += new System.EventHandler(this.BtnCadastrosPaises_Click);
             // 
             // BtnCadastrosEstados
             // 
             this.BtnCadastrosEstados.Name = "BtnCadastrosEstados";
             this.BtnCadastrosEstados.Size = new System.Drawing.Size(180, 22);
             this.BtnCadastrosEstados.Text = "Estados";
+            this.BtnCadastrosEstados.Click += new System.EventHandler(this.BtnCadastrosEstados_Click);
             // 
             // BtnCadastrosCidades
             // 
             this.BtnCadastrosCidades.Name = "BtnCadastrosCidades";
             this.BtnCadastrosCidades.Size = new System.Drawing.Size(180, 22);
             this.BtnCadastrosCidades.Text = "Cidades";
+            this.BtnCadastrosCidades.Click += new System.EventHandler(this.BtnCadastrosCidades_Click);
             // 
             // toolStripSeparator1
             // 
