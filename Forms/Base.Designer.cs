@@ -28,17 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.TxtCodigo = new System.Windows.Forms.TextBox();
+            this.txtCodigo = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.BtnSair = new System.Windows.Forms.Button();
+            this.btnSair = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // TxtCodigo
+            // txtCodigo
             // 
-            this.TxtCodigo.Location = new System.Drawing.Point(15, 25);
-            this.TxtCodigo.Name = "TxtCodigo";
-            this.TxtCodigo.Size = new System.Drawing.Size(127, 20);
-            this.TxtCodigo.TabIndex = 0;
+            this.txtCodigo.Location = new System.Drawing.Point(15, 25);
+            this.txtCodigo.Name = "txtCodigo";
+            this.txtCodigo.Size = new System.Drawing.Size(127, 20);
+            this.txtCodigo.TabIndex = 0;
             // 
             // label1
             // 
@@ -49,24 +49,24 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Código";
             // 
-            // BtnSair
+            // btnSair
             // 
-            this.BtnSair.Location = new System.Drawing.Point(722, 416);
-            this.BtnSair.Name = "BtnSair";
-            this.BtnSair.Size = new System.Drawing.Size(66, 22);
-            this.BtnSair.TabIndex = 2;
-            this.BtnSair.Text = "Sair";
-            this.BtnSair.UseVisualStyleBackColor = true;
-            this.BtnSair.Click += new System.EventHandler(this.BtnSair_Click);
+            this.btnSair.Location = new System.Drawing.Point(722, 416);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(66, 22);
+            this.btnSair.TabIndex = 2;
+            this.btnSair.Text = "Sair";
+            this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // Base
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.BtnSair);
+            this.Controls.Add(this.btnSair);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.TxtCodigo);
+            this.Controls.Add(this.txtCodigo);
             this.Name = "Base";
             this.Text = "Base";
             this.ResumeLayout(false);
@@ -75,8 +75,8 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button BtnSair;
+        private System.Windows.Forms.Button btnSair;
         protected System.Windows.Forms.Label label1;
-        protected System.Windows.Forms.TextBox TxtCodigo;
+        protected System.Windows.Forms.TextBox txtCodigo;
     }
 }

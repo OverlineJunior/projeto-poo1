@@ -29,22 +29,22 @@ namespace Test
 
         }
 
-        private void BtnIncluir_Click(object sender, EventArgs e)
+        private void btnIncluir_Click(object sender, EventArgs e)
         {
             Incluir();
         }
 
-        private void BtnAlterar_Click(object sender, EventArgs e)
+        private void btnAlterar_Click(object sender, EventArgs e)
         {
             Alterar();
         }
 
-        private void BtnExcluir_Click(object sender, EventArgs e)
+        private void btnExcluir_Click(object sender, EventArgs e)
         {
             Excluir();
         }
 
-        private void BtnPesquisar_Click(object sender, EventArgs e)
+        private void btnPesquisar_Click(object sender, EventArgs e)
         {
             Pesquisar();
         }

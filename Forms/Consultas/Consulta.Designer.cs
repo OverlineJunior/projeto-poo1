@@ -28,81 +28,81 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Lista = new System.Windows.Forms.ListView();
-            this.BtnExcluir = new System.Windows.Forms.Button();
-            this.BtnAlterar = new System.Windows.Forms.Button();
-            this.BtnIncluir = new System.Windows.Forms.Button();
-            this.BtnPesquisar = new System.Windows.Forms.Button();
+            this.lista = new System.Windows.Forms.ListView();
+            this.btnExcluir = new System.Windows.Forms.Button();
+            this.btnAlterar = new System.Windows.Forms.Button();
+            this.btnIncluir = new System.Windows.Forms.Button();
+            this.btnPesquisar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // Lista
+            // lista
             // 
-            this.Lista.HideSelection = false;
-            this.Lista.Location = new System.Drawing.Point(15, 51);
-            this.Lista.Name = "Lista";
-            this.Lista.Size = new System.Drawing.Size(773, 359);
-            this.Lista.TabIndex = 3;
-            this.Lista.UseCompatibleStateImageBehavior = false;
+            this.lista.HideSelection = false;
+            this.lista.Location = new System.Drawing.Point(15, 51);
+            this.lista.Name = "lista";
+            this.lista.Size = new System.Drawing.Size(773, 359);
+            this.lista.TabIndex = 3;
+            this.lista.UseCompatibleStateImageBehavior = false;
             // 
-            // BtnExcluir
+            // btnExcluir
             // 
-            this.BtnExcluir.Location = new System.Drawing.Point(650, 416);
-            this.BtnExcluir.Name = "BtnExcluir";
-            this.BtnExcluir.Size = new System.Drawing.Size(66, 22);
-            this.BtnExcluir.TabIndex = 4;
-            this.BtnExcluir.Text = "Excluir";
-            this.BtnExcluir.UseVisualStyleBackColor = true;
-            this.BtnExcluir.Click += new System.EventHandler(this.BtnExcluir_Click);
+            this.btnExcluir.Location = new System.Drawing.Point(650, 416);
+            this.btnExcluir.Name = "btnExcluir";
+            this.btnExcluir.Size = new System.Drawing.Size(66, 22);
+            this.btnExcluir.TabIndex = 4;
+            this.btnExcluir.Text = "Excluir";
+            this.btnExcluir.UseVisualStyleBackColor = true;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
-            // BtnAlterar
+            // btnAlterar
             // 
-            this.BtnAlterar.Location = new System.Drawing.Point(578, 416);
-            this.BtnAlterar.Name = "BtnAlterar";
-            this.BtnAlterar.Size = new System.Drawing.Size(66, 22);
-            this.BtnAlterar.TabIndex = 5;
-            this.BtnAlterar.Text = "Alterar";
-            this.BtnAlterar.UseVisualStyleBackColor = true;
-            this.BtnAlterar.Click += new System.EventHandler(this.BtnAlterar_Click);
+            this.btnAlterar.Location = new System.Drawing.Point(578, 416);
+            this.btnAlterar.Name = "btnAlterar";
+            this.btnAlterar.Size = new System.Drawing.Size(66, 22);
+            this.btnAlterar.TabIndex = 5;
+            this.btnAlterar.Text = "Alterar";
+            this.btnAlterar.UseVisualStyleBackColor = true;
+            this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
             // 
-            // BtnIncluir
+            // btnIncluir
             // 
-            this.BtnIncluir.Location = new System.Drawing.Point(506, 416);
-            this.BtnIncluir.Name = "BtnIncluir";
-            this.BtnIncluir.Size = new System.Drawing.Size(66, 22);
-            this.BtnIncluir.TabIndex = 6;
-            this.BtnIncluir.Text = "Incluir";
-            this.BtnIncluir.UseVisualStyleBackColor = true;
-            this.BtnIncluir.Click += new System.EventHandler(this.BtnIncluir_Click);
+            this.btnIncluir.Location = new System.Drawing.Point(506, 416);
+            this.btnIncluir.Name = "btnIncluir";
+            this.btnIncluir.Size = new System.Drawing.Size(66, 22);
+            this.btnIncluir.TabIndex = 6;
+            this.btnIncluir.Text = "Incluir";
+            this.btnIncluir.UseVisualStyleBackColor = true;
+            this.btnIncluir.Click += new System.EventHandler(this.btnIncluir_Click);
             // 
-            // BtnPesquisar
+            // btnPesquisar
             // 
-            this.BtnPesquisar.Location = new System.Drawing.Point(148, 25);
-            this.BtnPesquisar.Name = "BtnPesquisar";
-            this.BtnPesquisar.Size = new System.Drawing.Size(75, 20);
-            this.BtnPesquisar.TabIndex = 7;
-            this.BtnPesquisar.Text = "Pesquisar";
-            this.BtnPesquisar.UseVisualStyleBackColor = true;
-            this.BtnPesquisar.Click += new System.EventHandler(this.BtnPesquisar_Click);
+            this.btnPesquisar.Location = new System.Drawing.Point(148, 25);
+            this.btnPesquisar.Name = "btnPesquisar";
+            this.btnPesquisar.Size = new System.Drawing.Size(75, 20);
+            this.btnPesquisar.TabIndex = 7;
+            this.btnPesquisar.Text = "Pesquisar";
+            this.btnPesquisar.UseVisualStyleBackColor = true;
+            this.btnPesquisar.Click += new System.EventHandler(this.btnPesquisar_Click);
             // 
             // Consulta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.BtnPesquisar);
-            this.Controls.Add(this.BtnIncluir);
-            this.Controls.Add(this.BtnAlterar);
-            this.Controls.Add(this.BtnExcluir);
-            this.Controls.Add(this.Lista);
+            this.Controls.Add(this.btnPesquisar);
+            this.Controls.Add(this.btnIncluir);
+            this.Controls.Add(this.btnAlterar);
+            this.Controls.Add(this.btnExcluir);
+            this.Controls.Add(this.lista);
             this.Name = "Consulta";
             this.Text = "Consulta";
-            this.Controls.SetChildIndex(this.Lista, 0);
-            this.Controls.SetChildIndex(this.TxtCodigo, 0);
+            this.Controls.SetChildIndex(this.lista, 0);
+            this.Controls.SetChildIndex(this.txtCodigo, 0);
             this.Controls.SetChildIndex(this.label1, 0);
-            this.Controls.SetChildIndex(this.BtnExcluir, 0);
-            this.Controls.SetChildIndex(this.BtnAlterar, 0);
-            this.Controls.SetChildIndex(this.BtnIncluir, 0);
-            this.Controls.SetChildIndex(this.BtnPesquisar, 0);
+            this.Controls.SetChildIndex(this.btnExcluir, 0);
+            this.Controls.SetChildIndex(this.btnAlterar, 0);
+            this.Controls.SetChildIndex(this.btnIncluir, 0);
+            this.Controls.SetChildIndex(this.btnPesquisar, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -110,10 +110,10 @@
 
         #endregion
 
-        protected System.Windows.Forms.ListView Lista;
-        protected System.Windows.Forms.Button BtnExcluir;
-        protected System.Windows.Forms.Button BtnAlterar;
-        protected System.Windows.Forms.Button BtnIncluir;
-        protected System.Windows.Forms.Button BtnPesquisar;
+        protected System.Windows.Forms.ListView lista;
+        protected System.Windows.Forms.Button btnExcluir;
+        protected System.Windows.Forms.Button btnAlterar;
+        protected System.Windows.Forms.Button btnIncluir;
+        protected System.Windows.Forms.Button btnPesquisar;
     }
 }

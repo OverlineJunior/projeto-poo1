@@ -30,11 +30,11 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.cadastrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.BtnCadastrosPaises = new System.Windows.Forms.ToolStripMenuItem();
-            this.BtnCadastrosEstados = new System.Windows.Forms.ToolStripMenuItem();
-            this.BtnCadastrosCidades = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnCadastrosPaises = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnCadastrosEstados = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnCadastrosCidades = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.BtnCadastrosSair = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnCadastrosSair = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,46 +51,46 @@
             // cadastrosToolStripMenuItem
             // 
             this.cadastrosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.BtnCadastrosPaises,
-            this.BtnCadastrosEstados,
-            this.BtnCadastrosCidades,
+            this.btnCadastrosPaises,
+            this.btnCadastrosEstados,
+            this.btnCadastrosCidades,
             this.toolStripSeparator1,
-            this.BtnCadastrosSair});
+            this.btnCadastrosSair});
             this.cadastrosToolStripMenuItem.Name = "cadastrosToolStripMenuItem";
             this.cadastrosToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
             this.cadastrosToolStripMenuItem.Text = "Cadastros";
             // 
-            // BtnCadastrosPaises
+            // btnCadastrosPaises
             // 
-            this.BtnCadastrosPaises.Name = "BtnCadastrosPaises";
-            this.BtnCadastrosPaises.Size = new System.Drawing.Size(180, 22);
-            this.BtnCadastrosPaises.Text = "Países";
-            this.BtnCadastrosPaises.Click += new System.EventHandler(this.BtnCadastrosPaises_Click);
+            this.btnCadastrosPaises.Name = "btnCadastrosPaises";
+            this.btnCadastrosPaises.Size = new System.Drawing.Size(180, 22);
+            this.btnCadastrosPaises.Text = "Países";
+            this.btnCadastrosPaises.Click += new System.EventHandler(this.btnCadastrosPaises_Click);
             // 
-            // BtnCadastrosEstados
+            // btnCadastrosEstados
             // 
-            this.BtnCadastrosEstados.Name = "BtnCadastrosEstados";
-            this.BtnCadastrosEstados.Size = new System.Drawing.Size(180, 22);
-            this.BtnCadastrosEstados.Text = "Estados";
-            this.BtnCadastrosEstados.Click += new System.EventHandler(this.BtnCadastrosEstados_Click);
+            this.btnCadastrosEstados.Name = "btnCadastrosEstados";
+            this.btnCadastrosEstados.Size = new System.Drawing.Size(180, 22);
+            this.btnCadastrosEstados.Text = "Estados";
+            this.btnCadastrosEstados.Click += new System.EventHandler(this.btnCadastrosEstados_Click);
             // 
-            // BtnCadastrosCidades
+            // btnCadastrosCidades
             // 
-            this.BtnCadastrosCidades.Name = "BtnCadastrosCidades";
-            this.BtnCadastrosCidades.Size = new System.Drawing.Size(180, 22);
-            this.BtnCadastrosCidades.Text = "Cidades";
-            this.BtnCadastrosCidades.Click += new System.EventHandler(this.BtnCadastrosCidades_Click);
+            this.btnCadastrosCidades.Name = "btnCadastrosCidades";
+            this.btnCadastrosCidades.Size = new System.Drawing.Size(180, 22);
+            this.btnCadastrosCidades.Text = "Cidades";
+            this.btnCadastrosCidades.Click += new System.EventHandler(this.btnCadastrosCidades_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
             this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
             // 
-            // BtnCadastrosSair
+            // btnCadastrosSair
             // 
-            this.BtnCadastrosSair.Name = "BtnCadastrosSair";
-            this.BtnCadastrosSair.Size = new System.Drawing.Size(180, 22);
-            this.BtnCadastrosSair.Text = "Sair";
+            this.btnCadastrosSair.Name = "btnCadastrosSair";
+            this.btnCadastrosSair.Size = new System.Drawing.Size(180, 22);
+            this.btnCadastrosSair.Text = "Sair";
             // 
             // Menu
             // 
@@ -112,11 +112,11 @@
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem cadastrosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem BtnCadastrosPaises;
-        private System.Windows.Forms.ToolStripMenuItem BtnCadastrosEstados;
-        private System.Windows.Forms.ToolStripMenuItem BtnCadastrosCidades;
+        private System.Windows.Forms.ToolStripMenuItem btnCadastrosPaises;
+        private System.Windows.Forms.ToolStripMenuItem btnCadastrosEstados;
+        private System.Windows.Forms.ToolStripMenuItem btnCadastrosCidades;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.ToolStripMenuItem BtnCadastrosSair;
+        private System.Windows.Forms.ToolStripMenuItem btnCadastrosSair;
     }
 }
 
