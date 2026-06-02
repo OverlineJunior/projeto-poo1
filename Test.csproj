@@ -46,6 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entidades\Cadastrado.cs" />
+    <Compile Include="Entidades\Cidade.cs" />
+    <Compile Include="Entidades\Estado.cs" />
+    <Compile Include="Entidades\Pais.cs" />
     <Compile Include="Forms\Base.cs">
       <SubType>Form</SubType>
     </Compile>
