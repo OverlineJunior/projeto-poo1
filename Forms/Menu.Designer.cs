@@ -33,8 +33,7 @@
             this.btnCadastrosPaises = new System.Windows.Forms.ToolStripMenuItem();
             this.btnCadastrosEstados = new System.Windows.Forms.ToolStripMenuItem();
             this.btnCadastrosCidades = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.btnCadastrosSair = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnSair = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,9 +52,7 @@
             this.cadastrosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.btnCadastrosPaises,
             this.btnCadastrosEstados,
-            this.btnCadastrosCidades,
-            this.toolStripSeparator1,
-            this.btnCadastrosSair});
+            this.btnCadastrosCidades});
             this.cadastrosToolStripMenuItem.Name = "cadastrosToolStripMenuItem";
             this.cadastrosToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
             this.cadastrosToolStripMenuItem.Text = "Cadastros";
@@ -81,22 +78,22 @@
             this.btnCadastrosCidades.Text = "Cidades";
             this.btnCadastrosCidades.Click += new System.EventHandler(this.btnCadastrosCidades_Click);
             // 
-            // toolStripSeparator1
+            // btnSair
             // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
-            // 
-            // btnCadastrosSair
-            // 
-            this.btnCadastrosSair.Name = "btnCadastrosSair";
-            this.btnCadastrosSair.Size = new System.Drawing.Size(180, 22);
-            this.btnCadastrosSair.Text = "Sair";
+            this.btnSair.Location = new System.Drawing.Point(722, 416);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(66, 22);
+            this.btnSair.TabIndex = 5;
+            this.btnSair.Text = "Sair";
+            this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnSair);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Menu";
@@ -115,8 +112,7 @@
         private System.Windows.Forms.ToolStripMenuItem btnCadastrosPaises;
         private System.Windows.Forms.ToolStripMenuItem btnCadastrosEstados;
         private System.Windows.Forms.ToolStripMenuItem btnCadastrosCidades;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.ToolStripMenuItem btnCadastrosSair;
+        protected System.Windows.Forms.Button btnSair;
     }
 }
 
